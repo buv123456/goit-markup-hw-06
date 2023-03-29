@@ -671,3 +671,20 @@ ul {
   visibility: hidden;
   pointer-events: none;
 }
+
+.modal-input,
+.modal-comment {
+  display: block;
+  width: 100%;
+}
+
+.modal-form,
+.modal-button {
+  display: block;
+}
+
+.modal-accept>span {
+  margin-left: 15px;
+
+
+}
