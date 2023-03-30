@@ -11,6 +11,7 @@
   --color-logo-ft: #f4f4fd;
   --color-border: #E7E9FC;
   --color-icon: #8E8F99;
+  --color-modal: #8E8F99;
   --bg-team: #f4f4fd;
   --bg-btn-hero: #4d5ae5;
   --bg-btn-pf: #f4f4fd;
@@ -672,19 +673,74 @@ ul {
   pointer-events: none;
 }
 
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.modal-title {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.02rem;
+  line-height: 1.28;
+  color: var(--color-title);
+  margin-top: 24px;
+}
+
+.modal-label-title,
+.modal-accept-text,
+.modal-accept-link {
+  font-size: 12px;
+  line-height: 1.167;
+  text-align: start;
+  letter-spacing: 0.01rem;
+  color: var(--color-modal);
+  margin-top: 8px;
+}
+
+.modal-form .modal-label-title:first-child {
+  letter-spacing: 0.04rem;
+}
+
+.modal-accept-text,
+.modal-accept-link {
+  letter-spacing: 0.04rem
+}
+
+.modal-accept-link {
+  color: var(--color-text-btn);
+}
+
 .modal-input,
 .modal-comment {
   display: block;
+  font-size: 18px;
   width: 100%;
+  border: rgba(46, 47, 66, 0.4) solid 1px;
+  border-radius: 4px;
+  margin-top: 4px;
 }
 
-.modal-form,
-.modal-button {
+.modal-input {
+  height: 40px;
+  padding-left: 38px;
+}
+
+.modal-comment {
+  height: 120px;
+  padding-left: 16px;
+}
+
+.modal-button {}
+
+.modal-accept {
+  display: flex;
+  align-items: center;
+}
+
+.modal-accept span,
+.modal-accept a {
   display: block;
-}
-
-.modal-accept>span {
-  margin-left: 15px;
-
-
 }
