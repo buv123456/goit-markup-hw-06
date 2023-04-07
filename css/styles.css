@@ -504,7 +504,7 @@ ul {
   align-items: center;
   width: 40px;
   height: 40px;
-  background-color: rgba(256, 256, 256, 0.10);
+  background-color: var(--bg-btn-hero);
   border-radius: 50%;
   transition-property: background-color, transform;
   transition-duration: var(--animation-time);
@@ -512,7 +512,7 @@ ul {
 }
 
 .footer-link:is(:hover, :focus, :active) {
-  background-color: var(--color-success);
+  background-color: #31D0AA;
   transform: scale(1.05) rotate(360deg);
 }
 
@@ -870,7 +870,6 @@ ul {
 
 .modal-accept {
   display: flex;
-  /* gap: 8px; */
   align-items: center;
 }
 
