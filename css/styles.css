@@ -581,7 +581,6 @@ ul {
   transform: translateY(5px);
 }
 
-
 .subscribe-btn-wrap {
   display: flex;
   justify-content: center;
@@ -594,10 +593,6 @@ ul {
   width: 24px;
   height: 24px;
 }
-
-.footer-subscribe {}
-
-.footer-icon {}
 
 /* ----------------PAGE PORTFOLIO------------------ */
 .portfolio {
