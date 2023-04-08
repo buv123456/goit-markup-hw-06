@@ -693,9 +693,7 @@ ul {
   width: 100vw;
   height: 100vh;
   background: rgba(46, 47, 66, 0.4);
-  transition-property;
-  opacity,
-  visibility;
+  transition-property: opacity, visibility;
   transition-duration: var(--animation-time);
   transition-timing-function: var(--trans-function);
 }
