@@ -563,6 +563,10 @@ ul {
   letter-spacing: 0.04em;
   width: 165px;
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
   color: #FFFFFF;
   background-color: #4D5AE5;
   border-radius: 4px;
@@ -579,13 +583,6 @@ ul {
 
 .footer-subscribe-btn:active {
   transform: translateY(5px);
-}
-
-.subscribe-btn-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
 }
 
 .footer-icon-message {
@@ -629,7 +626,6 @@ ul {
     0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-
 }
 
 .portfolio-nav-btn:active {
@@ -919,8 +915,4 @@ ul {
     0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.portfolio-nav-btn:active {
-  transform: translateY(5px);
 }
